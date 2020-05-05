@@ -114,12 +114,8 @@ void add_example_mm(std::vector<Loopnest>& lns) {
 int main(int argc, char* argv[]) {
  
   std::vector<Loopnest> lns;
-  cout << lns.size() << "\n";
   add_example_conv(lns);
-  cout << lns.size() << "\n";
-
   add_example_mm(lns);
-  cout << lns.size() << "\n";
 
   // Do some basic analysis on each:
   printf("\n");
