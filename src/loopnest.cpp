@@ -29,7 +29,7 @@ int Loopnest::volume_at_level(Array& arr, int start_loop_level) {
       total_added++;
     }
 
-    // I think this adjustmet is necessary? TODO:check
+    // I think this adjustment is necessary? TODO:check
     if(total_added>1) {
       total_read-=total_added-1;
     }

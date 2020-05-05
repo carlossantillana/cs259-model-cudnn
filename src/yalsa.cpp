@@ -18,7 +18,7 @@ void add_example_conv(std::vector<Loopnest>& lns) {
   lns.push_back(b);
   Loopnest& ln = lns.back();
 
-  // This is where the problem paramters are set
+  // This is where the problem parameters are set
   //DianNao -- Conv3
   ln.dims[VarN]=1;
   ln.dims[VarC]=108;
